@@ -15,17 +15,13 @@ So far, The package is equiped by three main functionalities:
 6. Feature Engineering: Encoding Rare labels as 'Other' based on a threshhold given by user.
 
 ## Dependencies
-import numpy as np
+
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scipy
 
 ## Installation
 pip install featurengineering==1.0
 
-import pandas as pd
-
-import matplotlib.pyplot as plt
-
-import seaborn as sns
-
-import scipy.stats as stats
-
-sns.set()
